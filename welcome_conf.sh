@@ -15,9 +15,7 @@ sudo apt update -y
 sudo apt install python3-pip -y
 pip3 --version
 
-echo ""
 echo "We will end with Docker"
-echo ""
 
 sudo apt-get update -y 
 sudo apt-get install \
