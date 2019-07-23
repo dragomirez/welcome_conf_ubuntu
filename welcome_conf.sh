@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo ""
-echo "Let's start with Ansible"
-echo ""
+echo "So, let's start with Ansible"
 
 sudo apt update -y
 sudo apt install software-properties-common -y 
@@ -11,9 +9,7 @@ sudo apt update -y
 sudo apt install ansible -y 
 ansible 
 
-echo ""
 echo "Now let's install Python3-pip"
-echo ""
 
 sudo apt update -y 
 sudo apt install python3-pip -y
