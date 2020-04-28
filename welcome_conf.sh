@@ -21,7 +21,7 @@ pip3 --version
 
 sudo apt-get update -y
 
-pip3 install pandas -y
+pip3 install pandas
 
 echo "We will end with Docker"
 
