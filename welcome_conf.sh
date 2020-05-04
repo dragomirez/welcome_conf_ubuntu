@@ -45,8 +45,8 @@ sudo apt-get update -y
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y 
 
-usermod -aG sudo drago
-usermod -aG docker drago
-chmod 770 /etc/sudoers
+sudo usermod -aG sudo drago
+sudo usermod -aG docker drago
+sudo chmod 770 /etc/sudoers
 echo ""$USER"   ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-chmod 440 /etc/sudoers
+sudo chmod 440 /etc/sudoers
